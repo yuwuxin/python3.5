@@ -4,6 +4,7 @@
 
 import time
 
+
 # print('嵌套函数')
 #
 # def func():
@@ -105,7 +106,9 @@ def timer(timeout=0):
             print('run time is %s ' % (stop - start))
 
             print(timeout)
+
         return wrapper
+
     return decorator
 
 
@@ -115,14 +118,6 @@ def test(list_test):
         time.sleep(0.1)
         print('-' * 20, i)
 
+
 # timer(timeout=10)(test)(range(10))
 test(range(10))
-
-
-
-
-
-
-
-
-
