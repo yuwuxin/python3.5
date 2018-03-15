@@ -1,12 +1,7 @@
 #!/usr/bin/env python
 # _*_coding:utf-8_*_
-# Author:li hang
-
-'''
+import random
 import sys
 
-print(sys.path)
-'''
-
-import os
+print(random.randrange(0,4))
 
